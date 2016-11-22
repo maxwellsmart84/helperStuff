@@ -69,8 +69,6 @@ gulp.task('watcher', ['build'], () => {
 // gulp.task('tests', ['build'], shell.task('mocha -c --recursive lib/tests'));
 
 
-// This is the gulp-mocha plugin.  It doesn't seem to acknoledge our Rewire plugin(?) so leaving it here till we need it
-// and willing to spend the time to fix it.
 
 // gulp.task('tests', ['build'], () => {
 //   const stream = gulp.src(['./lib/tests/**/*.js'], { read: false })
